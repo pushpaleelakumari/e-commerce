@@ -1,0 +1,24 @@
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.me-2{
+    width: 400px !important;
+}
+.logoname{
+    color: rgb(213, 99, 137) !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav{
+    background-color: rgba(122, 112, 216, 0.449) !important;
+}
+.d-flex button{
+    border-color: white !important;
+    border-width: 1.5px;
+    color: brown !important;
+}
+.d-flex button:hover{
+    transition: 0.5s;
+    background-color: white !important;
+}

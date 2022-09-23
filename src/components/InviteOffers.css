@@ -1,0 +1,40 @@
+.offers{
+    background-color: aliceblue;
+}
+.inviteoffers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.offerImage{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.offerPara{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.invite{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
+.button{
+    margin-left: 10px;
+}
+.button button{
+    border-color: white !important;
+    border-width: 1.5px;
+    color: brown !important;
+    padding: 10px;
+    border-radius: 10px;
+}
+.button button:hover{
+    transition: 0.5s;
+    background-color: rgba(216, 112, 147, 0.449) !important;
+    color: white !important;
+}

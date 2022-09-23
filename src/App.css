@@ -1,0 +1,85 @@
+
+.hedding1 {
+    font-size: 5px;
+    margin-left: 5px;
+    font-family: sans-serif;
+    color: purple;
+}
+.explorejul button:hover {
+    transition: 0.5s;
+    box-shadow: 0px 0px 20px 0px black;
+    color: black;
+}
+.mimicards {
+    cursor: pointer;
+}
+.offer11 {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    justify-content: center;
+    cursor: pointer;
+}
+@media (min-width: 1060px) and (max-width:1090px) {
+    .offer11 {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        max-width: 100% !important;
+    
+    }
+}
+@media (min-width: 500px) and (max-width:1050px) {
+    .offer11 {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+    }
+    .container{
+        max-width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        overflow-x: hidden;
+    }
+}
+@media (min-width: 300px) and (max-width:700px) {
+    .offer11 {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+    }
+    .container{
+        max-width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        overflow-x: hidden;
+    }
+}
+.buttons {
+    text-align: center;
+}
+.exploreouts {
+    font-size: 1.5rem;
+    background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    color: transparent;
+    -webkit-background-clip: text;
+    display: inline-block;
+    margin-bottom: 2rem;
+    background-color: pink;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: palevioletred;
+}
+.container{
+    max-width: 100% !important;
+    padding: 0 !important;
+    overflow-x: hidden;
+}

@@ -1,0 +1,25 @@
+.hedding{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hedding img{
+    width: 200px;
+    height: 100px;
+}
+.heddings{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(208, 21, 83);
+}
+.flower{
+    height: 70px;
+}
+@media (min-width: 100px) and (max-width:900px){
+    .flower{
+        display: none;
+    }
+    .heddings{
+        margin-left: 10px;
+    }
+}

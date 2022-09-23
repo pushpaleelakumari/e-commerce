@@ -1,0 +1,58 @@
+.heddinges{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px;
+}
+.heddinges h6{
+    margin-top: 12px;
+}
+.heddinges img{
+    cursor: pointer;
+}
+.footer-content ul li{
+    list-style-type: none;
+}
+.footer-content ul b{
+    color: rgb(213, 99, 137);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer-content ul li{
+    cursor: pointer;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(128, 128, 128, 0.128);
+    border-radius: 5px;
+    padding: 10px;
+}
+@media (min-width: 1060px) and (max-width:1090px) {
+    .footer-content {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+@media (min-width: 500px) and (max-width:1050px) {
+    .footer-content {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 5px;
+    }
+}
+@media (min-width: 100px) and (max-width:700px) {
+    .footer-content {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+    }
+}
+.conte2 ul li{
+    margin: 2px;
+}
